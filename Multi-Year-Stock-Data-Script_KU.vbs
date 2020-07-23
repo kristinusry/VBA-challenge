@@ -60,7 +60,6 @@ Dim Stocks As Worksheet
                 openPrice = Cells(i + 1, 3)
                 totalVolume = 0
 
-            'if cells are the same ticker
             Else
                 totalVolume = totalVolume + Cells(i, 7).Value
             End If
